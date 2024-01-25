@@ -1,10 +1,16 @@
 ﻿using System;
-using TratExce.Entities;
+using TratExceUm.Entities;
 
-public class ProcessFile
+public class Process
 {
-    // Solução 1 (muito ruim): lógica de validação no programa principal.
-        // a lógica de validação não delega à reserva.
+ /*
+  *Solução 2 (ruim): método retornando string.
+  * A semântica da operação é prejudicada
+  *     Retornar string não tem nada a ver com atualização de reserva
+  *     E se a operação tivesse que retornar um string?
+  * Ainda não é possível tratar exceções em construtores
+  * A lógica fica estruturada em condicionais aninhadas 
+ */
 
     public static void Main()
     {
@@ -19,7 +25,7 @@ public class ProcessFile
         {
             Console.WriteLine("Error in reservation: Check-out date must be after check-in");
         }
-        else 
+        else
         {
             Reservation reservation = new Reservation(number, checkIn, checkOut);
             Console.WriteLine("Reservation: " + reservation);
@@ -31,22 +37,16 @@ public class ProcessFile
             Console.Write("Check-out date (dd/MM/yyyy): ");
             checkOut = DateTime.Parse(Console.ReadLine());
 
-            DateTime now = DateTime.Now;
-            if(checkIn <= now  || checkOut <= now)
+            string error = reservation.UpdateDates(checkIn, checkOut);
+
+            if(error != null)
             {
-                Console.WriteLine("Error in reservation: Reservation dates for update must be future dates");
-            }
-            else if (checkOut <= checkIn)
-            {
-                Console.WriteLine("Error in reservation: Check-out date must be after check-in");
+                Console.WriteLine("Error in reservation: " + error);
             }
             else
             {
-                reservation.UpdateDates(checkIn, checkOut);
                 Console.WriteLine("Reservation:" + reservation);
             }
         }
-
-        
     }
 }

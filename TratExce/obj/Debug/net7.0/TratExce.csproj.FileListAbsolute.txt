@@ -1,0 +1,15 @@
+D:\Estudos\TratamentoExcecoes\TratExce\bin\Debug\net7.0\TratExce.exe
+D:\Estudos\TratamentoExcecoes\TratExce\bin\Debug\net7.0\TratExce.deps.json
+D:\Estudos\TratamentoExcecoes\TratExce\bin\Debug\net7.0\TratExce.runtimeconfig.json
+D:\Estudos\TratamentoExcecoes\TratExce\bin\Debug\net7.0\TratExce.dll
+D:\Estudos\TratamentoExcecoes\TratExce\bin\Debug\net7.0\TratExce.pdb
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.AssemblyInfoInputs.cache
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.AssemblyInfo.cs
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.csproj.CoreCompileInputs.cache
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.sourcelink.json
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.dll
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\refint\TratExce.dll
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.pdb
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\TratExce.genruntimeconfig.cache
+D:\Estudos\TratamentoExcecoes\TratExce\obj\Debug\net7.0\ref\TratExce.dll
