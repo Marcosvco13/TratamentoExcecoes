@@ -8,11 +8,11 @@
 
         public Reservation() { }
 
-        public Reservation(int roomNumber, DateTime chackIn, DateTime chackOut)
+        public Reservation(int roomNumber, DateTime checkIn, DateTime checkOut)
         {
             RoomNumber = roomNumber;
-            CheckIn = chackIn;
-            CheckOut = chackOut;
+            CheckIn = checkIn;
+            CheckOut = checkOut;
         }
 
         public int Duration()
